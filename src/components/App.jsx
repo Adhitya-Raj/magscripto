@@ -1,6 +1,6 @@
 import './app.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
@@ -15,7 +15,7 @@ import Pricing from './Pricing';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="body">
         <Navbar/>
         <div>
