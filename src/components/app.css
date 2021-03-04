@@ -1,0 +1,25 @@
+.body{
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main{
+  margin-top: 56px;
+}
+
+.full-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 56px);
+  padding-bottom: 50px;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
