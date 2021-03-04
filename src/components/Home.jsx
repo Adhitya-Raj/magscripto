@@ -1,4 +1,5 @@
 import './app.css';
+import {Link} from 'react-router-dom';
 
 function Home() {
     return(
@@ -8,8 +9,8 @@ function Home() {
                 <h2 className="display-4 text-center">Specialising in short and long form contents.</h2>
                 <p className="display-5 mt-5">Give words to your thoughts!</p>
                 <div>
-                    <a href="/contactus" className="btn btn-lg btn-primary me-2">Hire Me</a>
-                    <a href="/aboutus" className="btn btn-lg btn-secondary">Know Me</a>
+                    <Link to="/contactus" className="btn btn-lg btn-primary me-2">Hire Me</Link>
+                    <Link to="/aboutus" className="btn btn-lg btn-secondary">Know Me</Link>
                 </div>
             </section>
             <section id="services" className="full-body">
