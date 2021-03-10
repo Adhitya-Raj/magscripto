@@ -33,7 +33,7 @@ class Blog extends React.Component {
                     <h2 className="display-5">Read and Mellow!</h2>
                 </div>
                 <div className="container">
-                    <div className="row row-cols-1 row-cols-md-2 g-3">
+                    <div className="row row-cols-1 g-3">
                         {this.state.blogPosts}
                     </div>
                 </div>

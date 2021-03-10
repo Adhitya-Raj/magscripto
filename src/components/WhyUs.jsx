@@ -2,8 +2,8 @@ function  WhyUs() {
     return (
         <div class="main">
         <div class="text-center">
-		    <h1 class="display-2">Why Me?</h1>
-            <h2 class="display-5">Curious why me? Well here it is you have to know!</h2>
+		    <h1 class="display-2">Why Us?</h1>
+            <h2 class="display-5">Curious why us? Well here it is you have to know!</h2>
         </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2">

@@ -9,14 +9,14 @@ function Home() {
                 <h2 className="display-4 text-center">Specialising in short and long form contents.</h2>
                 <p className="display-5 mt-5">Give words to your thoughts!</p>
                 <div>
-                    <Link to="/contactus" className="btn btn-lg btn-primary me-2">Hire Me</Link>
-                    <Link to="/aboutus" className="btn btn-lg btn-secondary">Know Me</Link>
+                    <Link to="/contactus" className="btn btn-lg btn-primary me-2">Hire Us</Link>
+                    <Link to="/aboutus" className="btn btn-lg btn-secondary">About Us</Link>
                 </div>
             </section>
             <section id="services" className="full-body">
-                <h2 className="display-2">My Services</h2>
+                <h2 className="display-2">Our Services</h2>
                 <p className="display-5">
-                Here's what I can do for you!<br/>
+                Here's what We can do for you!<br/>
                 Click in for more information
                 </p>
                 <div className="container mt-3">
@@ -71,7 +71,7 @@ function Home() {
             </section>
             <section id="testimonials" className="full-body">
                 <h2 className="display-2">Testimonials</h2>
-                <p className="display-5 mb-5">Hear my clients out!</p>
+                <p className="display-5 mb-5">Hear our clients out!</p>
                 <div className="container">
                     <div className="row g-3 justify-content-center">
                         <div className="col-12 col-md-6 d-flex justify-content-center">

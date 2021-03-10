@@ -3,7 +3,7 @@ function ContactUs() {
         <div class="main">
             <div class="text-center">
                 <h1 class="display-2">Get in touch</h1>
-                <p class="display-6">For booking services or If you have any queries feel free to contact me anytime by filling out this form. I will respond at the earliest. Kudos!</p>
+                <p class="display-6">For booking services or If you have any queries feel free to contact us anytime by filling out this form. We will respond at the earliest. Kudos!</p>
             </div>
             <div class="container">
                 <form action="" class="border p-3">

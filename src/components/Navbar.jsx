@@ -19,11 +19,11 @@ function Navbar() {
 						</li>
 						<li className="nav-item nav-link d-none d-lg-block">|</li>
 						<li className="nav-item">
-							<NavLink to="/aboutus" className="nav-link" exact>About Me</NavLink>
+							<NavLink to="/aboutus" className="nav-link" exact>About Us</NavLink>
 						</li>
 						<li className="nav-item nav-link d-none d-lg-block">|</li>
 						<li className="nav-item">
-							<NavLink to="/whyus" className="nav-link" exact>Why Hire Me</NavLink>
+							<NavLink to="/whyus" className="nav-link" exact>Why Hire Us</NavLink>
 						</li>
 						<li className="nav-item nav-link d-none d-lg-block">|</li>
 						<li className="nav-item">
