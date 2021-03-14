@@ -18,7 +18,7 @@ function BlogPost(props) {
         <div className="card blog">
             <img src={props.blog.thumbnail} alt={props.blog.title} className="card-img-top"/>
             <div className="card-body">
-                <h5 className="card-title">{props.blog.title}</h5>
+                <h5 className="card-title">{props.key}{props.blog.title}</h5>
                 <p className="card-text">{shortenText(toText(props.blog.content),0,250)+ '...'}<br/><a href={props.blog.link} target="_blank" rel="noreferrer noopener">read more</a></p>
             </div>
         </div>
