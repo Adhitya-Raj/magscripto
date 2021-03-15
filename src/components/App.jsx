@@ -12,6 +12,7 @@ import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
 import Pricing from './Pricing';
+import ThemeEditor from './themeEditor';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div className="body">
         <Navbar/>
         <div>
+          <ThemeEditor/>
           <Switch>
             <Route exact path="/">
               <Home/>

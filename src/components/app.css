@@ -31,18 +31,29 @@
 
 }
 
-.btn-primary, .btn-primary:hover{
+.btn-primary, .btn-primary:hover, .btn-primary:focus{
   color:var(--primary);
   background-color: var(--accent);
   border-color: var(--accent);
   text-shadow: none;
 }
 
-.btn-secondary, .btn-secondary:hover{
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus{
   color:var(--text);
   background-color: var(--alt-accent);
   border-color: var(--alt-accent);
   text-shadow: none;
+}
+
+.theme > button{
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  z-index: 2;
+}
+
+.modal-content{
+  color: #000;
 }
 
 .card{
