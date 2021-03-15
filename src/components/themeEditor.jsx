@@ -67,7 +67,7 @@ class ThemeEditor extends React.Component {
                                     <input type="color" name="text" className="form-control form-control-color" value={this.state.text} onChange={this.changeColor.bind(this)}/>
                                 </div>
                                 <div className="mb-3 d-flex justify-content-between">
-                                    <label htmlFor="altText" className="form-label">Alternate Text: {this.state.altAccent}</label>
+                                    <label htmlFor="altText" className="form-label">Alternate Text: {this.state.altText}</label>
                                     <input type="color" name="altText" className="form-control form-control-color" value={this.state.altText} onChange={this.changeColor.bind(this)}/>
                                 </div>
                                 <div className="modal-footer">
