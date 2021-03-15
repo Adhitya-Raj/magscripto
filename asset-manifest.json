@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magscripto/static/css/main.263d69b8.chunk.css",
+    "main.css": "/magscripto/static/css/main.01d16aa2.chunk.css",
     "main.js": "/magscripto/static/js/main.f9eee064.chunk.js",
     "main.js.map": "/magscripto/static/js/main.f9eee064.chunk.js.map",
     "runtime-main.js": "/magscripto/static/js/runtime-main.3f983d22.js",
@@ -10,13 +10,13 @@
     "static/js/3.463f7ad8.chunk.js": "/magscripto/static/js/3.463f7ad8.chunk.js",
     "static/js/3.463f7ad8.chunk.js.map": "/magscripto/static/js/3.463f7ad8.chunk.js.map",
     "index.html": "/magscripto/index.html",
-    "static/css/main.263d69b8.chunk.css.map": "/magscripto/static/css/main.263d69b8.chunk.css.map",
+    "static/css/main.01d16aa2.chunk.css.map": "/magscripto/static/css/main.01d16aa2.chunk.css.map",
     "static/js/2.b2718acb.chunk.js.LICENSE.txt": "/magscripto/static/js/2.b2718acb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3f983d22.js",
     "static/js/2.b2718acb.chunk.js",
-    "static/css/main.263d69b8.chunk.css",
+    "static/css/main.01d16aa2.chunk.css",
     "static/js/main.f9eee064.chunk.js"
   ]
 }
