@@ -1,6 +1,7 @@
 .card-img-top{
     object-fit: cover;
     background-color: white;
+    width: 50%;
 }
 
 .blog{
@@ -16,5 +17,8 @@
 @media (max-width: 768px){
     .blog{
         flex-direction: column;
+    }
+    .card-img-top{
+        width: 100%;
     }
 }
