@@ -77,8 +77,8 @@ function Home() {
                         <div className="col-12 col-md-6 d-flex justify-content-center">
                             <div className="card" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
-                                    <div className="col-md-4 d-flex">
-                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid m-auto"/>
+                                    <div className="col-md-4 d-flex justify-content-center px-2">
+                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid img-w-75"/>
                                     </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
@@ -93,8 +93,8 @@ function Home() {
                         <div className="col-12 col-md-6 d-flex justify-content-center">
                             <div className="card" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
-                                    <div className="col-md-4 d-flex">
-                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid m-auto"/>
+                                    <div className="col-md-4 d-flex justify-content-center px-2">
+                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid img-w-75"/>
                                     </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
@@ -109,8 +109,8 @@ function Home() {
                         <div className="col-12 col-md-6 d-flex justify-content-center">
                             <div className="card" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
-                                    <div className="col-md-4 d-flex">
-                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid m-auto"/>
+                                    <div className="col-md-4 d-flex justify-content-center px-2">
+                                        <img src={process.env.PUBLIC_URL+"/assets/male_avatar.svg"} alt="" className="img-fluid img-w-75"/>
                                     </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
