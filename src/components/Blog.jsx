@@ -20,7 +20,7 @@ class Blog extends React.Component {
         });
         var list = this.state.blogPostsData.map(
             function(blog,index){
-                return <div className="col"><BlogPost key={index} blog={blog}></BlogPost></div>;
+                return <div className="col d-flex justify-content-center"><BlogPost key={index} blog={blog}></BlogPost></div>;
             });
             this.setState({blogPosts: [...list] });
     }
@@ -30,10 +30,10 @@ class Blog extends React.Component {
             <div className="main">
                 <div className="text-center">
                     <h1 className="display-2">Blog</h1>
-                    <h2 className="display-5">Read and Mellow!</h2>
+                    <h2 className="display-5 mb-5">Read and Mellow!</h2>
                 </div>
                 <div className="container">
-                    <div className="row row-cols-1 g-3">
+                    <div className="row row-cols-1 row-cols-md-2 g-3">
                         {this.state.blogPosts}
                     </div>
                 </div>

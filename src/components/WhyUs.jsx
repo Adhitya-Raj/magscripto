@@ -6,7 +6,7 @@ function  WhyUs() {
             <h2 className="display-5">Curious why us? Well here it is you have to know!</h2>
         </div>
         <div className="container">
-            <div className="row row-cols-1 row-cols-md-2 g-3">
+            <div className="row row-cols-1 row-cols-md-2 g-5">
                 <div className="col flex-center">
                     <h3>Refined Content</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat eius tempore velit quas odio. Amet nihil id accusamus, quod eligendi pariatur dolores fugit numquam at nulla repudiandae, placeat aspernatur?</p>

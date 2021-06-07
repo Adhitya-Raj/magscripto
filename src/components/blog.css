@@ -1,12 +1,21 @@
 .blog .card-img-top{
     object-fit: cover;
     background-color: white;
-    width: 75%;
     padding: 0;
+    aspect-ratio: 1/1;
+    width: auto;
+    max-width: 100%;
+    margin: 5px;
+    border-radius: 15px;
 }
 
 .blog{
-    flex-direction: row;
+    border-radius: 20px;
+    max-width: 28rem;
+}
+
+.blog > .card-body a {
+    color: var(--text);
 }
 
 .blog > .card-body{
@@ -15,11 +24,3 @@
     justify-content: space-evenly;
 }
 
-@media (max-width: 992px){
-    .blog{
-        flex-direction: column;
-    }
-    .blog .card-img-top{
-        width: 100%;
-    }
-}

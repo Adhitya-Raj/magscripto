@@ -1,10 +1,22 @@
 :root{
-  --primary: #000000;
+  /* --primary: #000000;
   --secondary: #141414;
   --accent: #fca311;
   --alt-accent: #17bb90;
   --text: #fefefe;
-  --alt-text: #e5e5e5;
+  --alt-text: #e5e5e5; */
+  /* --primary: #000000;
+  --secondary: #14213d;
+  --accent: #fca311;
+  --alt-accent: #856a5d;
+  --text: #fefefe;
+  --alt-text: #e5e5e5; */
+  --primary: #f7f7f7;
+  --secondary: #efefef;
+  --accent: #d64933;
+  --alt-accent: #797270;
+  --text: #000000;
+  --alt-text: #424242;
 }
 
 #header{
@@ -31,16 +43,30 @@
 
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:focus{
+.btn-primary {
   color:var(--primary);
   background-color: var(--accent);
   border-color: var(--accent);
   text-shadow: none;
 }
 
-.btn-secondary, .btn-secondary:hover, .btn-secondary:focus{
+.btn-primary:hover, .btn-primary:focus {
+  color:var(--accent);
+  background-color: var(--primary);
+  border-color: var(--accent);
+  text-shadow: none;
+}
+
+.btn-secondary {
   color:var(--text);
   background-color: var(--alt-accent);
+  border-color: var(--alt-accent);
+  text-shadow: none;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  color:var(--alt-accent);
+  background-color: var(--text);
   border-color: var(--alt-accent);
   text-shadow: none;
 }
@@ -57,8 +83,16 @@
 }
 
 .card{
+  border: none;
   background-color: var(--secondary);
   color: var(--text);
+  box-shadow: 0px 20px 20px -10px rgba(0,0,0,.15);
+  transition: all ease-in-out 0.25s;
+}
+
+.card:hover{
+  scale: 1.1;
+  box-shadow: 0px 20px 20px -5px rgba(0,0,0,.25);
 }
 
 .card-img-top{
@@ -68,6 +102,24 @@
 
 .main{
   pad: 20px 0;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+.card-img-top {
+  margin: 5px;
+  object-fit: cover;
+  width: auto;
+  border-radius: 15px;
+}
+
+#services .card-body{
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .full-body{
@@ -82,8 +134,11 @@
 @media (max-width: 768px) { 
   .img-w-75 {
     max-width: 50vw;
-    padding: 5px 5px;
-  }  
+    padding: 10px 5px;
+  }
+  #testimonials .card-body{
+    text-align: center;
+  }
 }
 
 .bg-white {
@@ -102,6 +157,12 @@
   width: max-content;
 }
 
+.navbar a:hover,.navbar a:focus {
+  border-bottom: 3px solid var(--accent);
+  margin: auto;
+  width: max-content;
+}
+
 .navbar .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
@@ -115,7 +176,7 @@
 }
 
 .footer-link{
-  background-color: var(--accent);
+  background-color: var(--alt-accent);
   margin: 5px;
   padding: .5rem;
   border-radius: 50%;
