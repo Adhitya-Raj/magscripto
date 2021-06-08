@@ -3,7 +3,7 @@ function Pricing() {
         <div className="main">
         <div className="container text-center">
             <h1 className="display-1 pb-5">Pricing</h1>
-            <div className="row row-cols-1 row-cols-md-3 g-5 pb-3">
+            <div className="row row-cols-1 row-cols-md-3 gy-5 pb-3">
                 <div className="col">
                     <div className="card text-center h-100">
                         <div className="card-header"><h3>Custom Content</h3></div>

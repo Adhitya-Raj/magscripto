@@ -20,7 +20,7 @@ function Home() {
                 Click in for more information
                 </p>
                 <div className="container mt-3">
-                    <div className="row g-5 justify-content-center">
+                    <div className="row gy-5 justify-content-center">
                         <div className="col-12 col-md-4 d-flex justify-content-center">
                             <div className="card" style={{width: "18rem"}}>
                                 <img src={process.env.PUBLIC_URL+"/assets/web_content.svg"} alt="" className="card-img-top"/>
@@ -73,7 +73,7 @@ function Home() {
                 <h2 className="display-2">Testimonials</h2>
                 <p className="display-5 mb-5">Hear our clients out!</p>
                 <div className="container">
-                    <div className="row g-5 justify-content-center">
+                    <div className="row gy-5 justify-content-center">
                         <div className="col-12 col-md-6 d-flex justify-content-center">
                             <div className="card" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
