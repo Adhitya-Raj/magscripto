@@ -9,6 +9,10 @@
     border-radius: 15px;
 }
 
+.blog.card:hover {
+    scale: none;
+}
+
 .blog{
     border-radius: 20px;
     max-width: 28rem;
